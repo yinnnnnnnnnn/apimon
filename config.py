@@ -1,2 +1,2 @@
 DEBUG = True
-API_BASE = https://pokeapi.co/api/v2
+API_BASE = "https://pokeapi.co/api/v2"

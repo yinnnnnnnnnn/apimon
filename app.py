@@ -19,7 +19,6 @@ app.config.from_object('config')
 app.config.from_pyfile('config.py')
 API_BASE = app.config['API_BASE']  # read from config
 URL_TEMPLATE_POKEMONS = API_BASE + "/pokemon"
-URL_TEMPLATE_POKEMON = API_BASE + "/pokemon/{idOrName}"
 
 
 @app.route('/pokemon', methods=['GET'])
